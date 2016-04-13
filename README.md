@@ -77,7 +77,7 @@ Requirement global
 
 ```bash
 git clone https://github.com/59naga/babel-plugin-transform-array-from
-cd @59naga/babel-plugin-transform-array-from
+cd babel-plugin-transform-array-from
 npm install
 
 npm test
