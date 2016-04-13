@@ -21,7 +21,7 @@
     "cover": "abby cover:* --parse serial",
     "cover:test": "nyc --reporter=lcov --reporter=text abby mocha",
     "cover:report": "npm-if TRAVIS \"codeclimate-test-reporter < coverage/lcov.info\"",
-    "build": "abby \"babel -V && babel src --out-dir lib\" --env"
+    "build": "abby \"babel -V && babel src --out-dir lib --source-maps\" --env"
   },
   "nyc": {
     "exclude": [
