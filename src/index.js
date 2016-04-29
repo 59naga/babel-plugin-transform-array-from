@@ -3,7 +3,7 @@ import template from 'babel-template';
 import fs from 'fs';
 
 // private
-const polyfill = fs.readFileSync(require.resolve('@59naga/array.from/polyfill.js'), 'utf8');
+const polyfill = fs.readFileSync(require.resolve('array-from/polyfill.js'), 'utf8');
 const polyfillWithoutExport = polyfill.slice(polyfill.indexOf('('));
 const defineName = '_arrayFrom';
 

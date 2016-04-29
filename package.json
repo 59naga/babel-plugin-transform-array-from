@@ -7,7 +7,7 @@
     "lib"
   ],
   "dependencies": {
-    "@59naga/array.from": "^2.0.2",
+    "array-from": "^2.1.1",
     "babel-template": "^6.7.0"
   },
   "scripts": {
